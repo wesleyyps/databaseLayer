@@ -1,0 +1,47 @@
+{
+  "name" : "wesleyyps/databaselayer",
+  "description" : "Abstraction layer to access databases",
+  "version" : "0.0.1",
+  "keywords" : ["database"],
+  "license" : "GPL-2.0",
+  "authors" : [
+    {
+      "name" : "Wesley Sousa",
+      "email" : "wesleyyps@gmail.com",
+      "role" : "Developer"
+    },
+    {
+      "name" : "Bruno Koga",
+      "email" : "brunokoga187@gmail.com",
+      "role" : "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DatabaseLayer\\Src\\": "Src/"
+    }
+  },
+  "require": {
+    "respect/validation": "*",
+    "egulias/email-validator": "*",
+    "webmozart/json": "*",
+    "jdorn/sql-formatter": "*"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.4",
+    "spontena/pb-php": "*",
+    "phpunit/phpunit": "4.6.6",
+    "phpunit/phpunit-selenium": ">=1.2",
+    "phpunit/dbunit": "*",
+    "phpmd/phpmd": "2.3.1",
+    "pdepend/pdepend": "2.2.0",
+    "phploc/phploc": "*",
+    "kevinlebrun/colors.php": "0.*",
+    "phpunit/php-invoker": "*",
+    "symfony/event-dispatcher": "*",
+    "symfony/process": "*",
+    "friendsofphp/php-cs-fixer": "*",
+    "symfony/expression-language": "*",
+    "symfony/proxy-manager-bridge": "*"
+  }
+}
